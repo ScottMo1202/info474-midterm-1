@@ -1,0 +1,53 @@
+body { font: 12px Verdana;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+/* LABEL */
+.gen-label {
+    position: absolute;
+    top: 130px;
+    left: 780px
+}
+.leg-label {
+    position: absolute;
+    top: 80px;
+    left: 780px;
+}
+
+/* SELECTOR */
+.gen-selector {
+    position: absolute;
+    top: 150px;
+    left: 780px;
+    width: 90px;
+}
+.leg-selector {
+    position: absolute;
+    top: 100px;
+    left: 780px;
+    width: 90px;
+}
